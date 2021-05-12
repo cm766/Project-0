@@ -1,0 +1,20 @@
+body {
+	height: auto;
+  width: auto;          
+}
+.links {
+          	
+  font-family: Roboto,RobotoDraft,Arial,sans-serif;
+  font-size: 13px;
+  color: black;
+  display: inline-block;
+  margin: 15px 8px;
+  float: right;
+  
+}
+
+#img1 {
+  height: 92px;
+  width: 272px;
+  margin: auto;
+}
