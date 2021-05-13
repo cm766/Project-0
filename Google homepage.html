@@ -6,25 +6,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-    	<div>
-    		<div>
-    			<a href=" " class="links">Advanced Search</a>
-    			<a href=" " class="links">Images</a>   
-    			<!--1.insert links to Images and Advanced Search
-    			 2.review name -->
-    		</div>
-    		<div>
-    			<img src="../Images/googlelogo_color_272x92dp.png" id="img1">
-    			<!-- add properties-->
-    		</div>
-    		<div>
-    			<form>
-    				<input type="text" name="q">
-    				<input type="submit" value="Google Search">
-    			</form>
-    		</div>
-    		<!-- here could be another <div> if it was necesary-->
-    	</div>
-
+        <div class="flexbox body">
+            <div class="flexbox" id="links">
+                <div class="flexbox link">
+                    <a href=" ">Images</a>
+                </div>  
+                <div class="flexbox link">
+                    <a href=" ">Advanced Search</a>
+                </div>
+                <!--1.insert links to Images and Advanced Search
+                 2.review name -->
+            </div>
+            <div class="flexbox ImgForm">
+                <div class="flexbox Img">
+                    <img src="../Images/googlelogo_color_272x92dp.png">
+                <!-- review name's class-->
+                </div>
+                <div class="flexbox">
+                    <form>
+                        <input type="text" name="q">
+                        <input type="submit" value="Google Search">
+                     </form>
+                </div>
+                <!-- here could be another <div> if it was necesary-->
+            </div>
+        </div>
     </body>
 </html>
