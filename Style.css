@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-#links{
+.links{
   flex-direction: row;
   background-color: blue;
   justify-content: flex-end;
@@ -24,25 +24,35 @@ a {
   color: black;
 }
 
-#linkImgS{
+.linkImgS{
   height: 600px;
   width: 600px;
   background-color: lightblue;
 }
 
-.ImgForm{
+.imgForm{
   background-color: lightblue;
   flex-direction: column;
-
-}
+} /*ELIMINAR ESTA CLASE*/
 
 .img {
-  height: 
+  height: 97px;
+  justify-content: flex-end;
+  align-content: center;
 }
 
 img {
   height: 92px; 
   width: 272px;
+  align-self: center;
+}
+
+.form{
+  align-items: center;
+}
+
+form {
+  align-self: center;
 }
 /*
 .links {
