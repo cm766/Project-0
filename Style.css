@@ -9,12 +9,10 @@
 
 .links{
   flex-direction: row;
-  background-color: blue;
   justify-content: flex-end;
 }
 
 .link{
-  background-color: lightblue;
   margin: 15px 5px;
 }
 
@@ -27,11 +25,9 @@ a {
 .linkImgS{
   height: 600px;
   width: 600px;
-  background-color: lightblue;
 }
 
 .imgForm{
-  background-color: lightblue;
   flex-direction: column;
 } /*ELIMINAR ESTA CLASE*/
 
@@ -54,17 +50,8 @@ img {
 form {
   align-self: center;
 }
-/*
-.links {
-  font-family: Roboto,RobotoDraft,Arial,sans-serif;  ///review
-  font-size: 13px;  ///review
-  color: black; ///review
-  margin: 15px 8px; ///review
-  
+
+.buttom {
+  margin: 20px 10px;
 }
 
-#img1 {
-  
-
-} 
-*/
