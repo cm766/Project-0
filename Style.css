@@ -43,15 +43,46 @@ img {
   align-self: center;
 }
 
-.form{
+.formButtoms{
   align-items: center;
 }
 
-form {
-  align-self: center;
+ .input{
+  align-self: flex-start;
+  margin-top: -37px;
+  margin-left: 20px;
+  width: 487px;
+  height: 34px;
 }
 
 .buttom {
   margin: 20px 10px;
+}
+
+.form{
+  width: 584px;
+  background-color: #fff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height: 44px;
+  margin: 0px auto;
+}
+
+.form:hover{
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.dmGlass{
+  padding: 5px 0 0 14px;
+  /*background-color: lightyellow;*/
+}
+
+.mGlass{
+  margin-top: 3px;
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  fill: currentColor;
 }
 
