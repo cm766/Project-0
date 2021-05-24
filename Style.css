@@ -42,11 +42,12 @@ a:hover{
   margin: 20px 0px;
 }
 
-img {
+.img0{
   height: 92px; 
   width: 272px;
   align-self: center;
-}
+ }
+
 
 .formButtoms{
   align-items: center;
@@ -77,6 +78,24 @@ img {
   border-radius: 24px;
   height: 44px;
   margin: 0px auto;
+}
+
+@media (max-width: 670px ){
+  .input{
+    width: 353px;
+  }
+  .form{
+    width: 449px;
+  }
+}
+
+@media (max-width: 500px ){
+  .input{
+    width: 353px;
+  }
+  .form{
+    width: 241px;
+  }
 }
 
 .form:hover{
@@ -133,4 +152,14 @@ img {
 .buttom1:focus{
   border: 1px solid #4285f4;
   outline: none;
+}
+
+.images{
+  height: 16px;
+  color: #4285f4;
+  font-size: 16px;
+  font-family: roboto-regular, arial, sans-serif;
+  position: relative;
+  bottom: 20px;
+  left: 216px;
 }
