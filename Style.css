@@ -1,7 +1,7 @@
-.body {
+/*.body {
   flex-direction: row;
 }
-
+*/
 .flexbox {
   display: flex;
   flex-direction: column;
@@ -14,12 +14,20 @@
 
 .link{
   margin: 15px 5px;
+
 }
 
 a {
   font-family: arial,sans-serif;  
   font-size: 13px; 
-  color: black;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 .linkImgS{
@@ -27,14 +35,11 @@ a {
   width: 600px;
 }
 
-.imgForm{
-  flex-direction: column;
-} /*ELIMINAR ESTA CLASE*/
-
 .img {
   height: 97px;
   justify-content: flex-end;
   align-content: center;
+  margin: 20px 0px;
 }
 
 img {
@@ -49,18 +54,24 @@ img {
 
  .input{
   align-self: flex-start;
-  margin-top: -37px;
-  margin-left: 20px;
+  border-color: transparent;
+  margin-top: 6px;
   width: 487px;
-  height: 34px;
+  height: 18px;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  text-align: start;
+  cursor: text;
+  outline: none;
 }
+
 
 .buttom {
   margin: 20px 10px;
 }
 
 .form{
-  width: 584px;
+  width: 582px;
   background-color: #fff;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
@@ -73,11 +84,6 @@ img {
   border-color: rgba(223, 225, 229, 0);
 }
 
-.dmGlass{
-  padding: 5px 0 0 14px;
-  /*background-color: lightyellow;*/
-}
-
 .mGlass{
   margin-top: 3px;
   color: #9aa0a6;
@@ -86,3 +92,45 @@ img {
   fill: currentColor;
 }
 
+.mGlassInput{
+  flex-direction: row;
+  padding: 5px 0 0 14px;
+}
+
+.span{
+  height: 20px;
+  width: 20px;
+  margin-top: 4px;
+}
+
+.lupa{
+  justify-content: center;
+  padding-right: 13px;
+  width: 20px;   
+}
+
+.buttom1{
+  border: 1px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  margin: 11px 4px;
+  padding: 0px 16px;
+  height: 34px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  color: #3c4043;
+}
+
+.buttom1:hover{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  color: #202124;
+  border: 1px solid #dadce0;
+}
+
+.buttom1:focus{
+  border: 1px solid #4285f4;
+  outline: none;
+}
